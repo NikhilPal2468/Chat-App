@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App Realtime node Socket.io</title>
+    <link rel="shortcut icon" type="image/png" href="chat_signal.png"/>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat_signal.png" alt="">
+    </nav>
+    <div class="container">
+        <div class="message left">
+            Hello Nikhil How are you?
+        </div>
+        <div class="message right">
+            bhai I'm fine. How about you?
+        </div>
+    </div>
+    <div class="send">
+        <form action="#" id="send_container">
+            <input type="text" name="messageInp" id="messageInp" >
+            <button id="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
